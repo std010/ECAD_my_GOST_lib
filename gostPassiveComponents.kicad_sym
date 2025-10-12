@@ -1,0 +1,130 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "resistor"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 4 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 0 -3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "resistor_0_1"
+			(rectangle
+				(start -4.75 1.75)
+				(end 4.75 -1.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "resistor_1_1"
+			(polyline
+				(pts
+					(xy -10 0) (xy -5 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 0) (xy 10 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10 0 0)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 0 180)
+				(length 5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
