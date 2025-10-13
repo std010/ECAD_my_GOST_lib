@@ -187,7 +187,7 @@
 			)
 		)
 		(property "Description" "diode Schottky"
-			(at 4 -4.5 0)
+			(at 4 -5 0)
 			(effects
 				(font
 					(face "GOST type A")
