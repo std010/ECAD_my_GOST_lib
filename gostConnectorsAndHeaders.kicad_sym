@@ -1,0 +1,1363 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "4pin_female_header"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 10 -19 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "4pin_female_header_1_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 4.75 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 4.75 -4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9) (xy 4.75 -9)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -13.5) (xy 4.75 -13.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 2.25)
+				(end 14.25 -2.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -2.25)
+				(end 14.25 -6.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -6.75)
+				(end 14.25 -11.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -11.25)
+				(end 14.25 -15.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.25 6.25) (xy 7.75 8.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.25 6.25) (xy 7.75 4.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.75 6.25) (xy 10.25 6.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 9.5 0 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "2"
+				(at 9.5 -4.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "3"
+				(at 9.5 -9 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "4"
+				(at 9.5 -13.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -4.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -13.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "4pin_male_header"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 9 -19 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "4pin_male_header_1_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 4.75 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 4.75 -4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9) (xy 4.75 -9)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -13.5) (xy 4.75 -13.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 2.25)
+				(end 14.25 -2.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -2.25)
+				(end 14.25 -6.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -6.75)
+				(end 14.25 -11.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -11.25)
+				(end 14.25 -15.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.25 6.25) (xy 5.25 6.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.25 6.25) (xy 8.75 8.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.25 6.25) (xy 8.75 4.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 9.5 0 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "2"
+				(at 9.5 -4.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "3"
+				(at 9.5 -9 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "4"
+				(at 9.5 -13.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -4.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -13.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "6pin_female_header"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XS"
+			(at 9.5 -28 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "6pin_female_header_1_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 4.75 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 4.75 -4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9) (xy 4.75 -9)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -13.5) (xy 4.75 -13.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -18) (xy 4.75 -18)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -22.5) (xy 4.75 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 2.25)
+				(end 14.25 -2.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -2.25)
+				(end 14.25 -6.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -6.75)
+				(end 14.25 -11.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -11.25)
+				(end 14.25 -15.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -15.75)
+				(end 14.25 -20.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -20.25)
+				(end 14.25 -24.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.25 6.25) (xy 7.75 8.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.25 6.25) (xy 7.75 4.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.75 6.25) (xy 10.25 6.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 9.5 0 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "2"
+				(at 9.5 -4.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "3"
+				(at 9.5 -9 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "4"
+				(at 9.5 -13.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "5"
+				(at 9.5 -18 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "6"
+				(at 9.5 -22.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -4.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -13.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "6pin_male_header"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XP"
+			(at 10 -28 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "6pin_male_header_1_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 4.75 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.5) (xy 4.75 -4.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -9) (xy 4.75 -9)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -13.5) (xy 4.75 -13.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -18) (xy 4.75 -18)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -22.5) (xy 4.75 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 2.25)
+				(end 14.25 -2.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -2.25)
+				(end 14.25 -6.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -6.75)
+				(end 14.25 -11.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -11.25)
+				(end 14.25 -15.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -15.75)
+				(end 14.25 -20.25)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.75 -20.25)
+				(end 14.25 -24.75)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.25 6.25) (xy 5.25 6.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.25 6.25) (xy 8.75 8.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.25 6.25) (xy 8.75 4.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 9.5 0 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "2"
+				(at 9.5 -4.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "3"
+				(at 9.5 -9 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "4"
+				(at 9.5 -13.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "5"
+				(at 9.5 -18 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "6"
+				(at 9.5 -22.5 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -4.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -9 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -13.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -18 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 4.5)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

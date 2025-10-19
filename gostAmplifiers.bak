@@ -1,0 +1,490 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "AD8220"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 22 6.5 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AD8220_0_1"
+			(polyline
+				(pts
+					(xy 4 0) (xy 0 0)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 1) (xy 5 3.75)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5 0)
+				(radius 1)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -1.25) (xy 5 -22.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AD8220_1_1"
+			(polyline
+				(pts
+					(xy 0 -20) (xy 5 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 3.75) (xy 40 3.75)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -5) (xy 0 -5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 15.5 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -10) (xy 0 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -15) (xy 0 -15)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -22.25) (xy 40 -22.25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.5 3.75) (xy 15.5 -22.25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.25 2.25) (xy 20.25 -0.25) (xy 22.75 1) (xy 20.25 2.25)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 28.5 3.75) (xy 28.5 -22.25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 39.75 -17.25) (xy 39.75 -17.25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40 3.75) (xy 40 -22.25)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40 0) (xy 45 0)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40 -7.5) (xy 28.5 -7.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40 -10) (xy 45 -10)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40 -20) (xy 45 -20)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "+VCC"
+				(at 10.5 -10 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "GND"
+				(at 10.5 -15 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "-VCC"
+				(at 10.5 -20 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "RX"
+				(at 33.5 -10 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(text "RX"
+				(at 33.5 -20 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5 0)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10 0)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15 0)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -20 0)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 45 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45 -10 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45 -20 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
