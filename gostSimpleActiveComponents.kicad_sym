@@ -2,6 +2,159 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+	(symbol "Zener_diode"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "VD"
+			(at 4 4.5 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Zener_diode_0_1"
+			(polyline
+				(pts
+					(xy 2 0) (xy 0 0)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5 0) (xy 2 1.75) (xy 2 -1.75) (xy 5.5 0)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 0) (xy 5.5 0)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Zener_diode_1_1"
+			(polyline
+				(pts
+					(xy 6 1.75) (xy 6 -1.75)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6 -1.75) (xy 4.5 -1.75)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8 0 180)
+				(length 2)
+				(name ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 2.5 2.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "diode"
 		(pin_names
 			(offset 0.5)
@@ -105,7 +258,7 @@
 			)
 		)
 		(symbol "diode_1_1"
-			(pin input line
+			(pin passive line
 				(at 0 0 0)
 				(length 2)
 				(name ""
@@ -123,7 +276,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 8 0 180)
 				(length 2)
 				(name ""
@@ -271,7 +424,7 @@
 			)
 		)
 		(symbol "diode_Schottky_1_1"
-			(pin input line
+			(pin passive line
 				(at 0 0 0)
 				(length 2)
 				(name ""
@@ -289,7 +442,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 9 0 180)
 				(length 2)
 				(name ""
@@ -362,7 +515,7 @@
 		(symbol "n-ch-depletion-mosfet_0_1"
 			(polyline
 				(pts
-					(xy -0.5 -4.5) (xy 5 -4.5)
+					(xy -0.5 -4.5) (xy 5.5 -4.5)
 				)
 				(stroke
 					(width 0.5)
@@ -374,7 +527,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -3.5) (xy 4.5 -3.5)
+					(xy 0 0) (xy 0 -3.5) (xy 5 -3.5)
 				)
 				(stroke
 					(width 0.5)
@@ -386,7 +539,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -4.5) (xy 0 -9.5)
+					(xy 0 -4.5) (xy 0 -9)
 				)
 				(stroke
 					(width 0.5)
@@ -434,7 +587,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.5 -4.5) (xy 4.5 -9.5)
+					(xy 5 -4.5) (xy 5 -9)
 				)
 				(stroke
 					(width 0.5)
@@ -465,7 +618,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -9.5 90)
+				(at 0 -9 90)
 				(length 2.75)
 				(name ""
 					(effects
@@ -483,7 +636,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.5 -9.5 90)
+				(at 5 -9 90)
 				(length 2.75)
 				(name ""
 					(effects
@@ -570,7 +723,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -3.5) (xy 4.5 -3.5)
+					(xy 0 0) (xy 0 -3.5) (xy 5 -3.5)
 				)
 				(stroke
 					(width 0.5)
@@ -582,7 +735,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -4.5) (xy 0 -9.5)
+					(xy 0 -4.5) (xy 0 -9)
 				)
 				(stroke
 					(width 0.5)
@@ -642,7 +795,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4 -4.5) (xy 5 -4.5)
+					(xy 4.5 -4.5) (xy 5.5 -4.5)
 				)
 				(stroke
 					(width 0.5)
@@ -654,7 +807,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.5 -4.5) (xy 4.5 -9.5)
+					(xy 5 -4.5) (xy 5 -9)
 				)
 				(stroke
 					(width 0.5)
@@ -685,7 +838,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -9.5 90)
+				(at 0 -9 90)
 				(length 2.75)
 				(name ""
 					(effects
@@ -703,7 +856,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.5 -9.5 90)
+				(at 5 -9 90)
 				(length 2.75)
 				(name ""
 					(effects
@@ -778,7 +931,7 @@
 		(symbol "p-ch-depletion-mosfet_0_1"
 			(polyline
 				(pts
-					(xy -0.5 -4.5) (xy 5 -4.5)
+					(xy 0 0) (xy 0 -3.5) (xy 5 -3.5)
 				)
 				(stroke
 					(width 0.5)
@@ -790,7 +943,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -3.5) (xy 4.5 -3.5)
+					(xy 0 -4.5) (xy 0 -9)
 				)
 				(stroke
 					(width 0.5)
@@ -802,7 +955,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -4.5) (xy 0 -9.5)
+					(xy 0 -4.5) (xy 5.5 -4.5)
 				)
 				(stroke
 					(width 0.5)
@@ -850,7 +1003,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.5 -4.5) (xy 4.5 -9.5)
+					(xy 5 -4.5) (xy 5 -9)
 				)
 				(stroke
 					(width 0.5)
@@ -881,7 +1034,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -9.5 90)
+				(at 0 -9 90)
 				(length 2.75)
 				(name ""
 					(effects
@@ -899,7 +1052,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.5 -9.5 90)
+				(at 5 -9 90)
 				(length 2.75)
 				(name ""
 					(effects
@@ -986,7 +1139,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -3.5) (xy 4.5 -3.5)
+					(xy 0 0) (xy 0 -3.5) (xy 5 -3.5)
 				)
 				(stroke
 					(width 0.5)
@@ -998,7 +1151,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -4.5) (xy 0 -9.5)
+					(xy 0 -4.5) (xy 0 -9)
 				)
 				(stroke
 					(width 0.5)
@@ -1058,7 +1211,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4 -4.5) (xy 5 -4.5)
+					(xy 4.5 -4.5) (xy 5.5 -4.5)
 				)
 				(stroke
 					(width 0.5)
@@ -1070,7 +1223,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.5 -4.5) (xy 4.5 -9.5)
+					(xy 5 -4.5) (xy 5 -9)
 				)
 				(stroke
 					(width 0.5)
@@ -1101,7 +1254,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -9.5 90)
+				(at 0 -9 90)
 				(length 2.75)
 				(name ""
 					(effects
@@ -1119,7 +1272,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.5 -9.5 90)
+				(at 5 -9 90)
 				(length 2.75)
 				(name ""
 					(effects

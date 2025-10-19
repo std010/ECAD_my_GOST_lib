@@ -3,6 +3,9 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "AD8220"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.5)
 		)
@@ -322,7 +325,7 @@
 					)
 				)
 			)
-			(text "RX"
+			(text "RG"
 				(at 33.5 -10 0)
 				(effects
 					(font
@@ -331,7 +334,7 @@
 					)
 				)
 			)
-			(text "RX"
+			(text "RG"
 				(at 33.5 -20 0)
 				(effects
 					(font

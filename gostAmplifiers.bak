@@ -322,7 +322,7 @@
 					)
 				)
 			)
-			(text "RX"
+			(text "RG"
 				(at 33.5 -10 0)
 				(effects
 					(font
@@ -331,7 +331,7 @@
 					)
 				)
 			)
-			(text "RX"
+			(text "RG"
 				(at 33.5 -20 0)
 				(effects
 					(font

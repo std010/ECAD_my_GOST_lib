@@ -3,6 +3,9 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "capacitor"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.5)
 		)
@@ -144,6 +147,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "inductance_coil"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.5)
 		)
@@ -359,6 +365,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "resistor"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -372,10 +381,11 @@
 			)
 		)
 		(property "Value" "X Om"
-			(at 0 -3 0)
+			(at 0 -5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "GOST type A")
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -398,7 +408,7 @@
 			)
 		)
 		(property "Description" "non polar resistor"
-			(at 0 -5 0)
+			(at 0 -7.5 0)
 			(effects
 				(font
 					(face "GOST type A")
@@ -423,7 +433,7 @@
 		(symbol "resistor_1_1"
 			(polyline
 				(pts
-					(xy -10 0) (xy -5 0)
+					(xy -8 0) (xy -5 0)
 				)
 				(stroke
 					(width 0.5)
@@ -435,7 +445,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5 0) (xy 10 0)
+					(xy 5 0) (xy 8 0)
 				)
 				(stroke
 					(width 0.5)
@@ -446,8 +456,8 @@
 				)
 			)
 			(pin passive line
-				(at -10 0 0)
-				(length 5)
+				(at -8 0 0)
+				(length 3)
 				(name ""
 					(effects
 						(font
@@ -464,8 +474,8 @@
 				)
 			)
 			(pin passive line
-				(at 10 0 180)
-				(length 5)
+				(at 8 0 180)
+				(length 3)
 				(name ""
 					(effects
 						(font
