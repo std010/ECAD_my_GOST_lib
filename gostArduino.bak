@@ -750,7 +750,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -10 0)
 				(length 4)
 				(name ""
@@ -768,7 +768,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -15 0)
 				(length 4)
 				(name ""
