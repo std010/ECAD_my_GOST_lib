@@ -27,7 +27,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ArduinoPCB:proMicroSMD"
 			(at 0 0 0)
 			(effects
 				(font
