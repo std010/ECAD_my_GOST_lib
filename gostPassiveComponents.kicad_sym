@@ -30,7 +30,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MySmdSimpleComponents:capacitor_0805_Most_Density"
 			(at 0 0 0)
 			(effects
 				(font
@@ -389,7 +389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MySmdSimpleComponents:resistor_0805_Most_Density"
 			(at 0 0 0)
 			(effects
 				(font

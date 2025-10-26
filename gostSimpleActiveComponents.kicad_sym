@@ -3,6 +3,9 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "Zener_diode"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.5)
 		)
@@ -26,7 +29,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MySmdSimpleComponents:diode_SOD-80C_Most_Density"
 			(at 0 0 0)
 			(effects
 				(font
@@ -126,7 +129,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "A"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -144,7 +147,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "C"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -327,7 +330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MySmdSimpleComponents:diode_SOD-323_Most_Density"
 			(at 0 0 0)
 			(effects
 				(font
@@ -687,7 +690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MySmdSimpleComponents:transistor-SOT-323"
 			(at 0 0 0)
 			(effects
 				(font

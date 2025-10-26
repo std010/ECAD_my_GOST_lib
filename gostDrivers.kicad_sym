@@ -27,7 +27,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyThroughHoleIntegraitedCircuits:PowerDIP-16"
 			(at 0 0 0)
 			(effects
 				(font
@@ -611,7 +611,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "7"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -629,7 +629,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "9"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -647,7 +647,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "10"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -665,7 +665,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "15"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -683,7 +683,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -701,7 +701,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "16"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -719,7 +719,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "3"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -737,7 +737,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "6"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -755,7 +755,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "11"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -773,7 +773,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "14"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -791,7 +791,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "13"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -809,7 +809,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "12"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -827,7 +827,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "5"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -845,7 +845,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "4"
 					(effects
 						(font
 							(size 2.5 2.5)

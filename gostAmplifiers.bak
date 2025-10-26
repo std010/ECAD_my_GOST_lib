@@ -3,9 +3,6 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "AD8220"
-		(pin_numbers
-			(hide yes)
-		)
 		(pin_names
 			(offset 0.5)
 		)
@@ -29,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MySmdIntegratedCircuits:MSOP-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -371,7 +368,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -389,7 +386,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "8"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -407,7 +404,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -443,7 +440,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "7"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -461,7 +458,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "2"
 					(effects
 						(font
 							(size 2.5 2.5)
@@ -479,7 +476,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 2.5 2.5)

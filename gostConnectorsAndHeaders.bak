@@ -320,7 +320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyPCBConnectorsAndHeaders:WF-4R"
 			(at 0 0 0)
 			(effects
 				(font
@@ -611,7 +611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyPCBConnectorsAndHeaders:USB-Type-C-4125-GF-A-0190"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1005,7 +1005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyPCBConnectorsAndHeaders:WF-6R"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1208,7 +1208,7 @@
 				)
 			)
 			(text "1"
-				(at 9.5 0 0)
+				(at 10 0 0)
 				(effects
 					(font
 						(face "GOST type A")
@@ -1217,7 +1217,7 @@
 				)
 			)
 			(text "2"
-				(at 9.5 -5 0)
+				(at 10 -5 0)
 				(effects
 					(font
 						(face "GOST type A")
@@ -1226,7 +1226,7 @@
 				)
 			)
 			(text "3"
-				(at 9.5 -10 0)
+				(at 10 -10 0)
 				(effects
 					(font
 						(face "GOST type A")
@@ -1235,7 +1235,7 @@
 				)
 			)
 			(text "4"
-				(at 9.5 -15 0)
+				(at 10 -15 0)
 				(effects
 					(font
 						(face "GOST type A")
@@ -1244,7 +1244,7 @@
 				)
 			)
 			(text "5"
-				(at 9.5 -20 0)
+				(at 10 -20 0)
 				(effects
 					(font
 						(face "GOST type A")
@@ -1253,7 +1253,7 @@
 				)
 			)
 			(text "6"
-				(at 9.5 -25 0)
+				(at 10 -25 0)
 				(effects
 					(font
 						(face "GOST type A")
