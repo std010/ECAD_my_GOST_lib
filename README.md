@@ -4,6 +4,7 @@
 
 ## Символы
 
++5V, GND (эквипотенциаль)
 Инструмментальный усилитель AD8220
 Arduino pro micro
 Molex-like 2,54 хедеры
@@ -20,4 +21,4 @@ WF-4R, 6R
 USB-Type-C-4125-GF-A-0190
 PowerDIP-16
 0805, -, 0805
--, SOD-323, SOD-80C, SOT323 
+-, SOD-323, SOD-80C, SOT323
